@@ -47,7 +47,6 @@ const App = () => {
   // handleSearch Function
   const handleSearch = (e) => {
     e.preventDefault();
-    console.log(searchInput.current.value);
     resetFetch();
   };
 
